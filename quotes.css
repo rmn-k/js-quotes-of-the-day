@@ -1,0 +1,27 @@
+div{
+    text-align: center;
+    font-family: monospace;
+}
+
+h1{
+    font-size: 60px;
+    font-family: monospace;
+}
+
+button{
+    width: 250px;
+    height: 80px;
+    background-color: #dfe7ee; 
+    font-size: 25px;
+    font-family: monospace;
+    
+}
+
+p{
+    font-size: 25px;
+}
+
+button:hover{
+    /*background-color: #e0f1ff;*/
+     background-color: #d9e0e6;
+}
