@@ -33,6 +33,6 @@ function randomSelector(arrLength){
 
 function generateQuote(){
 	var randomNumber= randomSelector(arrQuotes.length);
-	document.getElementById("quoteOutput").innerHTML='' + arrQuotes[randomNumber].quote + '"';
+	document.getElementById("quoteOutput").innerHTML='"' + arrQuotes[randomNumber].quote + '"';
 	document.getElementById("authorOutput").innerHTML="- " + arrQuotes[randomNumber].author;
 }
